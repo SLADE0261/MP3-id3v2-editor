@@ -1,4 +1,4 @@
-# MP3 Tag Reader & Editor
+# MP3-id3v2-editor
 
 A lightweight command-line tool written in C for viewing and editing ID3v2 tags in MP3 files. Easily manage metadata like title, artist, album, year, genre, and comments directly from your terminal.
 
@@ -32,8 +32,8 @@ A lightweight command-line tool written in C for viewing and editing ID3v2 tags 
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/mp3-tag-craft.git
-cd mp3-tag-craft
+git clone https://github.com/SLADE0261/MP3-id3v2-editor.git
+cd MP3-id3v2-editor
 
 # Compile the program
 gcc main.c tag_editor.c -o mp3tag
@@ -53,16 +53,16 @@ Display all ID3v2 tags from an MP3 file:
 
 **Output:**
 ```
-———————————————————————————————————————————————————————————————————————
+——————————————————————————————————————————————————————————————————————————
 MP3 Tag Reader & Editor for ID3v2
-———————————————————————————————————————————————————————————————————————
+——————————————————————————————————————————————————————————————————————————
 Title                : My Favorite Song
 Artist               : Great Artist
 Album                : Best Album
 Year                 : 2023
 Content Type         : Pop
 Composer             : Amazing composer
-———————————————————————————————————————————————————————————————————————
+——————————————————————————————————————————————————————————————————————————
 ```
 
 ### Edit Tags
@@ -116,7 +116,7 @@ Options:
 ## Project Structure
 
 ```
-mp3-tag-craft/
+MP3-id3v2-editor/
 │
 ├── main.c           # Main program and command-line argument handling
 ├── tag_editor.c     # Core functions for reading and editing tags
@@ -180,16 +180,20 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is open source and available for educational purposes.
 
 ## Author
 
-**Krishnakant C. Pore**
+Krishnakant C. Pore
 
 ## Acknowledgments
 
 - ID3v2 specification for tag format details
 - The open-source community for inspiration
+
+## Repository
+
+GitHub: [https://github.com/SLADE0261/MP3-id3v2-editor](https://github.com/SLADE0261/MP3-id3v2-editor)
 
 ---
 
